@@ -1,0 +1,81 @@
+*{
+    font-family: monospace;
+}
+body {
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #f0f8ff;
+}
+
+
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  margin: 0;
+}
+h1{
+    font-size: 50px;
+    color: #2196F3;
+}
+
+header h1 {
+  margin-bottom: 1rem;
+}
+
+
+.button {
+  height: 40px;
+  width: 140px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button.hover{
+    color: white;
+    background-color: darkblue;
+}
+img{
+    height: 200px;
+}
+
+
+main {
+  padding: 2rem;
+}
+
+section{
+    
+    margin: 20px auto;         /* Centered horizontally */
+    padding: 40px;             /* Equal padding for squarish shape */
+    width: 80%;                /* Or set a fixed width, e.g., 600px */
+    border: 1px solid gray;
+    border-radius: 20px;       /* Less rounding for squarish corners */
+    background-color: white;   /* Optional: contrast from body bg */
+    color: black;              /* Improve readability */
+}
+
+}
+.submit{
+      height: 40px;
+  width: 140px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  background-color: #2196F3;
+}
+.submit.hover{
+
+    background-color: #717171;
+}
+.input{
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    height: 25px;
+}
